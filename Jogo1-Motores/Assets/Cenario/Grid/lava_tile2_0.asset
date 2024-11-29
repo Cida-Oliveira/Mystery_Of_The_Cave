@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: lava_tile4
+  m_Name: lava_tile2_0
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 76173252cfb84164598fa61e593f2074, type: 3}
+  m_Sprite: {fileID: 411022778, guid: c378a70130d26554da5549b6c5b01320, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5024ffd64bec79646934726ddce39862
+guid: c378a70130d26554da5549b6c5b01320
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lava_tile3_0
+      name: lava_tile2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 64
-        height: 47
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7f33c27c0a24804ab0d36730c884654
-      internalID: 1024086898
+      spriteID: 6ffe156fe9adcff458ea75f4b9f9c773
+      internalID: 411022778
       vertices: []
       indices: 
       edges: []
@@ -154,7 +154,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      lava_tile3_0: 1024086898
+      lava_tile2_0: 411022778
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
