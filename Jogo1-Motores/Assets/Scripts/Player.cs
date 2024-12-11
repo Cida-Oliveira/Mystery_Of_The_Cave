@@ -76,12 +76,26 @@ public class NewBehaviourScript : MonoBehaviour
     }
 
     //detectar toda vez que um personagem tocar em algo
-    void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.layer == 6)
         {
             isJump = false;
             anim.SetBool("jump", false);
+        }
+
+        if(collision.gameObject.tag == "Lava")
+        {
+            
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
+        }
+
+        if(collision.gameObject.tag == "Abismo")
+        {
+            
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
         }
     }
 
@@ -93,4 +107,5 @@ public class NewBehaviourScript : MonoBehaviour
             isJump = true;
         }
     }
+    
 }
