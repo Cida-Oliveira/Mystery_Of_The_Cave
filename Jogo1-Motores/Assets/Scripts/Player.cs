@@ -97,6 +97,13 @@ public class NewBehaviourScript : MonoBehaviour
             GameController.instance.ShowGameOver();
             Destroy(gameObject);
         }
+
+        if(collision.gameObject.tag == "Oca")
+        {
+            
+            GameController.instance1.ShowVitoria();
+            Destroy(gameObject);
+        }
     }
 
     //quando o personagem para de tocar algo

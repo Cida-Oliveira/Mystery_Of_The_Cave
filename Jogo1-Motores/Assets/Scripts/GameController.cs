@@ -7,11 +7,16 @@ public class GameController : MonoBehaviour
 {
     public static GameController instance;
 
+    public static GameController instance1;
+
     public GameObject gameOver;
+
+    public GameObject vitoria;
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
+        instance1 = this;
     }
 
     // Update is called once per frame
@@ -20,8 +25,8 @@ public class GameController : MonoBehaviour
         gameOver.SetActive(true);
    }
 
-   public void RestartGame(string name)
+   public void ShowVitoria()
    {
-        SceneManager.LoadScene(name);
+     vitoria.SetActive(true);
    }
 }
