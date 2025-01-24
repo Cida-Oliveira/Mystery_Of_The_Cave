@@ -89,6 +89,7 @@ public class NewBehaviourScript : MonoBehaviour
             
             GameController.instance.ShowGameOver();
             Destroy(gameObject);
+            
         }
 
         if(collision.gameObject.tag == "Abismo")
@@ -96,13 +97,15 @@ public class NewBehaviourScript : MonoBehaviour
             
             GameController.instance.ShowGameOver();
             Destroy(gameObject);
+            
         }
 
         if(collision.gameObject.tag == "Oca")
         {
             
-            GameController.instance1.ShowVitoria();
+            GameController.instance.ShowVitoria();
             Destroy(gameObject);
+            
         }
     }
 
